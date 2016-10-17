@@ -7,7 +7,10 @@ input.keydown(function(e) {
     if (inc == 0) {
   output.html("um. . . I have a boyfriend");
     }
-    else if (inc ==
+    else if (inc == 1) {
+      output.html("seriously, don't talk to me")
+    }
+    else if (inc == 
 }
 })
 

@@ -1,9 +1,9 @@
 var output = $("#output");
 var input = $("#input");
 
-var inc = 0
+var inc = 0;
 function talking() {
-  inc = inc + 1
+  inc = inc + 1;
 }
 
 input.keydown(function(e) {
@@ -13,16 +13,16 @@ input.keydown(function(e) {
   output.html("um. . . I have a boyfriend");
     }
     else if (inc == 2) {
-      output.html("seriously, don't talk to me")
+      output.html("seriously, don't talk to me");
     }
     else if (inc == 3) {
       output.html("bob is going to kill you if you keep talking to me");
     }
     else if (inc > 3) {
-      output.html("you should talk to bob")
-      alert("seiously, talk to bob at 'jackbrasesco.github.io/bob'")
+      output.html("you should talk to bob");
+      alert("seiously, talk to bob at 'jackbrasesco.github.io/bob'");
     }
 }
 })
 
-console.log(inc)
+console.log(inc);

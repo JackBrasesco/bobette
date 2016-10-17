@@ -10,6 +10,7 @@ input.keydown(function(e) {
   talking()
   if (e.keyCode == 13) {
   output.html("um. . . I have a boyfriend");
+    input.val("")
   }})
    
 

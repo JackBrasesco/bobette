@@ -10,7 +10,12 @@ input.keydown(function(e) {
     else if (inc == 1) {
       output.html("seriously, don't talk to me")
     }
-    else if (inc == 
+    else if (inc == 2) {
+      output.html("bob is going to kill you if you keep talking to me");
+    }
+    else if (inc > 2) {
+      output.html("you should talk to bob")
+    }
 }
 })
 

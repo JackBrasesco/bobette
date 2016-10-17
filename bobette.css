@@ -18,8 +18,10 @@ body {
 #bobette {
   height: 200;
   width: 200;
+  top: 380;
 }
 
 .stuff {
   display: inline-block;
+  position: relative;
 }

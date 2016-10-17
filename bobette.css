@@ -1,3 +1,9 @@
 body {
   background-color: lightblue;
 }
+
+#textbox {
+  background-color: dodgerblue;
+  height: 100px;
+  width: 100px;
+}

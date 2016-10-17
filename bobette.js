@@ -15,6 +15,7 @@ input.keydown(function(e) {
     }
     else if (inc > 2) {
       output.html("you should talk to bob")
+      alert("seiously, talk to bob at 'jackbrasesco.github.io/bob'")
     }
 }
 })

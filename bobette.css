@@ -35,3 +35,9 @@ body {
   text-align: center;
   font-size: 20px
 }
+
+#output {
+  position: relative;
+  left: 80px;
+  
+}

@@ -124,27 +124,5 @@ var input = $("#input");if (keydownEvent.keyCode == 13) {
 
 
 function parseText(text) {  
-  if (text === "hello") {
-    gameOutput.html("Hi there!");
-  }else if(find > 0) {
-    gameOutput.html("blue");
-  } else if(text === "How much do you weigh") {
-    gameOutput.html("3 pounds");
-  } else if(text === "help") {
-    gameOutput.html("I'm not 'bob the help bot'... help thyself");
-  } else if(text === "Hi") { 
-    counter()
-    if (inc < 3)
-      gameOutput.html("Hi, how are you")
-      else gameOutput.html("ur mum said hi last night!!!!!") 
-        } else if(text === "What's your favorite class?") {
-          gameOutput.html("Anything but programming!");
-        } else if(text === "what is your name") {
-          var response
-          =responses[Math.floor(Math.random()*responses.length)];
-          gameOutput.html(response);      
-        } 
-
-  else {gameOutput.html("That doesnt make any sense  idiot, type 'help' for a list of things that do make sense");
-       }
+    Output.html("Um, I have a boyfriend");
 }

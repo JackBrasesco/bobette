@@ -29,7 +29,9 @@ body {
 #title {
   background-color: dodgerblue;
   border: 3px solid blue;
-  border: r
+  border-radius: 20px;
   height: 50px;
   width: 500px;
+  text-align: center;
+  font-size: 20px
 }
